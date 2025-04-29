@@ -3,18 +3,18 @@
 ## 🔧 Como rodar o projeto localmente
 
 ### 1. Clone o repositório
-git clone https://github.com/caiooozs/GoMovies.git
-cd seu-repositorio
+- git clone https://github.com/caiooozs/GoMovies.git
+- cd seu-repositorio
 
 ### 2. Instale as dependências
-npm install
+- npm install
 
 ### 3. Crie um arquivo .env.local e adicione:
-NEXT_PUBLIC_API_URL=https://api.themoviedb.org/3/movie/popular
-API_KEY=sua_chave_aqui
+- NEXT_PUBLIC_API_URL=https://api.themoviedb.org/3/movie/popular
+- API_KEY=sua_chave_aqui
 
 ### 4. Rode o projeto
-npm run dev
+- npm run dev
 
 #### 🚀 Funcionalidades
 - 🔎 Listagem dos filmes mais populares
