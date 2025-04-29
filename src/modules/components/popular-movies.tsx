@@ -20,7 +20,7 @@ export function PopularMovies({ movies }: PopularMoviesProps) {
       />
 
       <div id="movies">
-        <div className="grid grid-cols-6 gap-4 p-4">
+        <div className=" gap-4 p-4 md:grid md:grid-cols-3 lg:grid lg:grid-cols-4 sm:grid sm:grid-cols-2 space-y-3">
           {movies?.map((movie) => (
             <Card
               key={movie.id}
@@ -28,9 +28,9 @@ export function PopularMovies({ movies }: PopularMoviesProps) {
                 setSelectedMovie(movie);
                 setIsOpen(true);
               }}
-              className="bg-gray-200 transition-all transform duration-300 hover:shadow-2xl hover:scale-110 cursor-pointer"
+              className="bg-[#232323fa] transition-all transform duration-300 hover:shadow-2xl hover:scale-110 cursor-pointer border-0"
             >
-              <CardTitle className="text-md font-bold text-center">
+              <CardTitle className="text-md font-bold text-center text-[#fff]">
                 {movie.title}
               </CardTitle>
               <CardContent>

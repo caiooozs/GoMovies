@@ -52,6 +52,7 @@ export const DrawerMovies = ({
           <DrawerFooter>
             <DrawerClose>
               <Button
+                type="button"
                 variant="outline"
                 className="w-3/12 bg-black text-white cursor-pointer"
               >
