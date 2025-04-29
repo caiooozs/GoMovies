@@ -51,13 +51,12 @@ export const DrawerMovies = ({
           )}
           <DrawerFooter>
             <DrawerClose>
-              <Button
+              <button
                 type="button"
-                variant="outline"
-                className="w-3/12 bg-black text-white cursor-pointer"
+                className="w-3/12 bg-black text-white cursor-pointer h-12 rounded-md"
               >
                 Voltar
-              </Button>
+              </button>
             </DrawerClose>
           </DrawerFooter>
         </DrawerContent>

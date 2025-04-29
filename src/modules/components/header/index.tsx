@@ -2,7 +2,7 @@ import { FaSearch } from "react-icons/fa";
 
 export const Header = () => {
   return (
-    <div className="flex justify-between w-full p-6">
+    <div className="lg:flex lg:justify-between md:flex md:justify-between sm:flex sm:justify-between w-full p-6">
       <h1 className="font-bold text-3xl">
         <span className="text-red-800">GO</span>
         <span className="text-[#fff]">FILMES</span>
