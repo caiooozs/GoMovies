@@ -24,17 +24,17 @@ npm run dev
 
 
 #### 🧰 Tecnologias Utilizadas
-Next.js 14
-TypeScript
-ShadCN/UI (com Tailwind CSS)
-TMDB API (The Movie Database)
-Fetch (pra requisições)
-dotenv (para variáveis de ambiente)
+- Next.js 14
+- TypeScript
+- ShadCN/UI (com Tailwind CSS)
+- TMDB API (The Movie Database)
+- Fetch (pra requisições)
+- dotenv (para variáveis de ambiente)
 
 
 
 #### 📸 Screenshots
-![Macbook Exemple](./public/screenshots/macbookExemple.png)
-![Drawer Macbook Exemple](./public/screenshots/macbookDrawerExemple.png)
-![iPhone 14 Exemple](./public/screenshots/iphone14PlusExemple.png)
-![Drawer iPhone 14 Exemple](./public/screenshots/iphone14PlusDrawerExemple.png)
+![Macbook Exemple](./gomovies/public/macbookExemple.png)
+![Drawer Macbook Exemple](./gomovies/public/macbookDrawerExemple.png)
+![iPhone 14 Exemple](./gomovies/public/iphone14PlusExemple.png)
+![Drawer iPhone 14 Exemple](./gomovies/public/iphone14PlusDrawerExemple.png)
